@@ -9,6 +9,12 @@ extern "C"
 void initRangeTime(int);
 int callPing(int);
 
+void pushQ(int t);
+
+void popQ();
+
+int frontQ();
+
 #ifdef __cplusplus
 }
 #endif

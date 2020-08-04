@@ -10,3 +10,15 @@ void initRangeTime(int t) {
 int callPing(int t) {
     return p_rc->ping(t);
 }
+
+void pushQ(int t) {
+    q_pings.push(t);
+}
+
+void popQ() {
+    q_pings.pop();
+}
+
+int frontQ() {
+    return q_pings.front();
+}

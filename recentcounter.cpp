@@ -13,6 +13,8 @@ int RecentCounter::ping(int t) {
     return q.size();
 }
 
+LinkedQueue<int> q_pings;
+
 /**
  * Your RecentCounter object will be instantiated and called as such:
  * RecentCounter* obj = new RecentCounter();

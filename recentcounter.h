@@ -3,6 +3,8 @@
 
 #include "linkqueue.h"
 
+extern LinkedQueue<int> q_pings;
+
 class RecentCounter {
 private:
     LinkedQueue<int> q;
